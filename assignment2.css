@@ -184,7 +184,7 @@ nav ul li {
 @media only screen and (max-width: 576px) {
     .features-section {
         flex-direction: column;
-        margin-top: 30px;
+        margin: 30px 20px;
     }
 
     .features-photo {
@@ -202,7 +202,7 @@ nav ul li {
     }
 
     .features-titles {
-        font-size: 40px;
+        font-size: 45px;
     }
 }
 
@@ -267,3 +267,37 @@ nav ul li {
 .btn-text2{
     font-size: 25px;
 }
+
+/* Media Query  */
+
+@media only screen and (max-width:576px) {
+    .features-section2 {
+        flex-direction: column;
+        margin: 50px 10px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .features-photo2 img {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    .btn-primary2 {
+        height: 100px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .btn-text{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .btn-text2{
+        font-size: 15px;
+    }
+}
+
+/* Facts Section  */
+
