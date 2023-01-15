@@ -10,7 +10,7 @@
     padding: 18px 35px;
     height: 50px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 700;
     font-size: 15px;
 }
@@ -51,7 +51,7 @@ nav ul li {
 /* Banner & Titles */
 
 .banner {
-    margin: 50px 100px;
+    margin: 100px 100px;
     text-align: center;
 }
 
@@ -67,10 +67,6 @@ nav ul li {
     margin-top: 100px;
 }
 
-.banner-title2 {
-    font-weight: 600;
-    font-size: 64px;
-}
 
 .banner-para {
     color: #727272;
@@ -130,7 +126,7 @@ nav ul li {
 
 .features-section {
     display: flex;
-    margin: 50px 100px;
+    margin: 100px 100px;
 }
 
 .features-photo {
@@ -184,7 +180,7 @@ nav ul li {
 @media only screen and (max-width: 576px) {
     .features-section {
         flex-direction: column;
-        margin: 30px 20px;
+        margin: 50px 20px;
     }
 
     .features-photo {
@@ -210,7 +206,7 @@ nav ul li {
 
 .features-section2 {
     display: flex;
-    margin: 50px 100px;
+    margin: 100px 100px;
     height: 1059px;
 }
 
@@ -236,7 +232,7 @@ nav ul li {
 .features-about {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 20px 20px;
     margin: 10px 0 ;
 }
@@ -252,7 +248,7 @@ nav ul li {
     background-color: #FF900E;
     height: 150px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 700;
     padding: 20px 20px;
     margin-left: 20px;
@@ -273,7 +269,7 @@ nav ul li {
 @media only screen and (max-width:576px) {
     .features-section2 {
         flex-direction: column;
-        margin: 50px 10px;
+        margin: 50px 20px;
         height: 100%;
         align-items: center;
     }
@@ -301,3 +297,148 @@ nav ul li {
 
 /* Facts Section  */
 
+.facts{
+    margin: 100px 100px;
+}
+
+.facts-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.facts-para{
+    color: #727272;
+    font-size: 16px;
+}
+
+.facts-details{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.facts-info{
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    padding: 20px;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.facts-info:hover{
+    color: #FF900E;
+    transform: scale(0.75);
+}
+
+.facts-info-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.facts-info-para{
+    font-size: 20px;
+    color: #727272;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 576px) {
+
+    .facts{
+        margin: 50px 20px;
+    }
+    .facts-details{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 20px;
+    }
+}
+
+/* Rememberance Section */
+
+.extra{
+    margin: 100px 100px;
+    text-align: center;
+}
+
+.extra-title{
+    font-size: 45px;
+}
+
+.extra-details{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.extra-info img{
+    width: 100%;
+    height: 300px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:576px) {
+
+    .extra{
+        margin: 50px 20px;
+    }
+    .extra-details{
+        flex-direction: column;
+    }
+}
+
+/* Sponsors Section  */
+
+.sponsors{
+    margin: 100px 100px;
+    text-align: center;
+}
+
+.sponsor-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sponsor-para{
+    color: #727272;
+    font-size: 16px;
+}
+
+.sponsor-details{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.sponsor-info img{
+    height: 50px;
+    mix-blend-mode: luminosity;
+}
+
+@media only screen and (max-width:576px) {
+
+    .sponsors{
+        margin: 50px 20px;
+        text-align: center;
+    }
+    .sponsor-details{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.footer{
+    margin: 100px 0;
+    background-color: #FFF4E7;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.footer-para{
+    text-align: center;
+    padding-top: 40px;
+}
