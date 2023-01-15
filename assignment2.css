@@ -122,6 +122,51 @@ nav ul li {
     }
 }
 
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .header {
+        height: 100%;
+    }
+
+    nav,
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+
+    nav ul {
+        padding-right: 50px;
+    }
+
+    .nav-title {
+        font-size: 40px;
+    }
+
+    .banner {
+        margin: 0;
+        align-items: center;
+    }
+
+    .banner img {
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .banner-title2 {
+        font-size: 40px;
+    }
+
+    .banner-para {
+        padding: 30px 50px;
+    }
+}
+
 /* Features Section  */
 
 .features-section {
@@ -178,6 +223,31 @@ nav ul li {
 /* Media Queries */
 
 @media only screen and (max-width: 576px) {
+    .features-section {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    .features-photo {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .features-photo img {
+        width: 100%;
+    }
+
+    .features-details {
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .features-titles {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
     .features-section {
         flex-direction: column;
         margin: 50px 20px;
@@ -295,6 +365,35 @@ nav ul li {
     }
 }
 
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .features-section2 {
+        flex-direction: column;
+        margin: 50px 20px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .features-photo2 img {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    .btn-primary2 {
+        height: 100px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .btn-text{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .btn-text2{
+        font-size: 15px;
+    }
+}
+
 /* Facts Section  */
 
 .facts{
@@ -354,7 +453,18 @@ nav ul li {
     }
 }
 
-/* Rememberance Section */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .facts{
+        margin: 50px 20px;
+    }
+    .facts-details{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 20px;
+    }
+}
+
+/* Reminder Section */
 
 .extra{
     margin: 100px 100px;
@@ -380,6 +490,15 @@ nav ul li {
 
 @media only screen and (max-width:576px) {
 
+    .extra{
+        margin: 50px 20px;
+    }
+    .extra-details{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
     .extra{
         margin: 50px 20px;
     }
@@ -429,6 +548,20 @@ nav ul li {
         gap: 30px;
     }
 }
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .sponsors{
+        margin: 50px 20px;
+        text-align: center;
+    }
+    .sponsor-details{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+/* Footer Section  */
 
 .footer{
     margin: 100px 0;
